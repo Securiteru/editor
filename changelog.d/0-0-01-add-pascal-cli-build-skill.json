@@ -1,0 +1,20 @@
+{
+  "version": "0.0.01",
+  "title": "Add Pascal CLI build skill",
+  "description": "Added a repository-local pascal-cli-build skill covering lifecycle management, MCP-first scene construction, coordinate and collision rules, recovery procedures, and CLI runtime smoke verification.",
+  "audience": "developer",
+  "visibility": "internal",
+  "release_scope": "dev",
+  "public_description": "",
+  "internal_description": "Added a repository-local pascal-cli-build skill covering lifecycle management, MCP-first scene construction, coordinate and collision rules, recovery procedures, and CLI runtime smoke verification.",
+  "files_changed": [
+    ".agents/skills/pascal-cli-build/SKILL.md"
+  ],
+  "timestamp": "2026-08-10T17:23:11.116397Z",
+  "git": {
+    "branch": "main",
+    "base_commit": "31b2f2c7226313e54ff91e9a70f99874a83f1492",
+    "deployment_commit": null,
+    "deployment_commit_note": "Final commit SHA is only known after commit creation; correlate by reading this changelog entry from the deployed GitHub Actions headSha."
+  }
+}
