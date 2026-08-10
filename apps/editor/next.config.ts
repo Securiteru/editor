@@ -12,6 +12,10 @@ const nextConfig: NextConfig = {
   logging: {
     browserToTerminal: true,
   },
+  // Local development is commonly opened through 127.0.0.1 while Next emits
+  // dev-resource requests from localhost (and vice versa). Permit both loopback
+  // hostnames so Turbopack chunks, fonts, and HMR are not rejected with 403.
+  allowedDevOrigins: ['127.0.0.1', 'localhost'],
   typescript: {
     ignoreBuildErrors: true,
   },
